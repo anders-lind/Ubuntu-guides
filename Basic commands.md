@@ -1,3 +1,4 @@
+# Basic commands
 ## Remove a folder
 - `rm -r -f some/folder/path`
 
@@ -75,3 +76,10 @@ Download all files from a Git directory
   - Switch to new branch
   - Upload local branch as remote
     - `git push -u origin <branch>`
+
+# For fresh Ubuntu installation
+## Change hardware clock to UTC (for dual boot with Windows)
+- `timedatectl set-local-rtc 1`
+## Install grub customizer
+- `sudo add-apt-repository ppa:danielrichter2007/grub-customizer`
+- `sudo apt install grub-customizer`
